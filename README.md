@@ -4,7 +4,10 @@ Shell script to upload images using the Cloudinary API + cURL.
 
 ## General Workflow
 
-Image is added to designated folder &rarr; Image is copied to `../__bkp` within designated folder &rarr; Image is uploaded to Cloudinary via API using cURL &rarr; Original image is deleted
+- Image is added to designated folder
+- Image is copied to `../__bkp` within designated folder
+- Image is uploaded to Cloudinary via API using cURL
+- Original image is deleted
 
 ## Getting started
 
