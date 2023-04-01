@@ -11,6 +11,7 @@ Image is added to designated folder &rarr; Image is copied to `../__bkp` within 
 1. Create a [Cloudinary account](https://cloudinary.com/users/register_free)
 2. The information for the `secrets.sh` can be accessed from your Dashboard once you log in to Cloudinary.
 3. Update the following variables with your details.
+  
   In `secrets.sh`
   - `CLOUD_NAME`
   - `API_KEY`
@@ -25,7 +26,7 @@ Image is added to designated folder &rarr; Image is copied to `../__bkp` within 
 5. Create a `/__bkp` directory in the designated directory to hold copies of original images.
 
 ## Optional. Use .gitignore if using git.
-Friendly reminder to uncomment line 2 in `.gitignore` so secrets/API keys aren't added to Git.
+Friendly reminder to add `secrets.sh` to `.gitignore` if using Git.
 
 ## Run script
 `./upload-to-cloudinary.sh`
